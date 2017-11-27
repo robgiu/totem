@@ -1,3 +1,8 @@
+// Roberto Giungato (C) 2017
+// sistema per gestione Totem 
+// controllo Led, attivazione da RFID
+
+
 var rc522 = require("rc522");
 var mysql = require('mysql');
 var Gpio = require('onoff').Gpio,
